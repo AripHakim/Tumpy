@@ -1,0 +1,22 @@
+# Folder yang tidak perlu dikirim ke EAS Build
+node_modules
+.expo
+.expo-shared
+.vscode
+
+# File sementara dan log
+*.log
+*.tsbuildinfo
+
+# File konfigurasi lokal
+*.env
+*.env.*
+
+# Backup atau arsip besar
+*.zip
+*.rar
+*.7z
+*.bak
+
+# Dokumentasi dan metadata
+README.md

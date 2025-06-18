@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "tumpy",
+    "slug": "tumpy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo-tumpy.png",
+    "scheme": "tumpy",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo-tumpy.png",
+        "backgroundColor": "#151718"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.ariprhakim.tumpy"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/logo-tumpy.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/logo-tumpy.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "340a3f9c-a9a8-4348-b380-30c10d073b00"
+      }
+    }
+  }
+}
